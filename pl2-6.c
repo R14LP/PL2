@@ -8,13 +8,7 @@ int Smallest(int array[], int n)
 
     int min = Smallest(array, n - 1);
 
-    if(array[n - 1] < min)
-    {
-        return array[n - 1];
-    }else
-    {
-        return min;
-    }
+    return (array[n - 1] < min) ? array[n - 1] : min;
 }
 
 int main()
