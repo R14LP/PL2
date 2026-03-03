@@ -8,6 +8,7 @@ int main()
     printf("give a number to see the sum of the sequence:");
     scanf("%d", &number);
     printf("sum=%d", Sum(number));
+    return 0;
 }
 
 int Sum(int number)
