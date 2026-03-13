@@ -15,6 +15,5 @@ int main()
     for(int i = 0; i < number; i++) {
         printf("%d ", Fibonacci(i));
     }
-
     return 0;
 }
